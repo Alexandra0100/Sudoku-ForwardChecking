@@ -1,0 +1,10 @@
+C:\Users\justi\source\repos\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe.config
+C:\Users\justi\source\repos\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe
+C:\Users\justi\source\repos\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.pdb
+C:\Users\justi\source\repos\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.AssemblyReference.cache
+C:\Users\justi\source\repos\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.Form1.resources
+C:\Users\justi\source\repos\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.Properties.Resources.resources
+C:\Users\justi\source\repos\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.GenerateResource.cache
+C:\Users\justi\source\repos\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.CoreCompileInputs.cache
+C:\Users\justi\source\repos\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.exe
+C:\Users\justi\source\repos\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.pdb
