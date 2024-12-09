@@ -28,6 +28,7 @@ namespace Sudoku_IA_project
         /// </summary>
         private void SetTableOnDataGridView()
         {
+            sudokuDataGridView.Rows.Clear();
             if (sudokuDataGridView.Rows.Count < 9)
             {
                 for(int i = sudokuDataGridView.Rows.Count; i < 9; i++)
