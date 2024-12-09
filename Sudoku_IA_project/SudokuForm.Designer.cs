@@ -41,6 +41,7 @@
             this.playButton = new System.Windows.Forms.Button();
             this.cleanButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.validateMoveButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sudokuDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,58 +68,69 @@
             this.sudokuDataGridView.RowTemplate.Height = 24;
             this.sudokuDataGridView.Size = new System.Drawing.Size(489, 437);
             this.sudokuDataGridView.TabIndex = 0;
+            this.sudokuDataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.SudokuDataGridView_CellValueChanged);
+
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Column1";
+            this.Column1.MaxInputLength = 1;
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Column2";
+            this.Column2.MaxInputLength = 1;
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Column3";
+            this.Column3.MaxInputLength = 1;
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
             this.Column4.HeaderText = "Column4";
+            this.Column4.MaxInputLength = 1;
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
             this.Column5.HeaderText = "Column5";
+            this.Column5.MaxInputLength = 1;
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             // 
             // Column6
             // 
             this.Column6.HeaderText = "Column6";
+            this.Column6.MaxInputLength = 1;
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             // 
             // Column7
             // 
             this.Column7.HeaderText = "Column7";
+            this.Column7.MaxInputLength = 1;
             this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
             // 
             // Column8
             // 
             this.Column8.HeaderText = "Column8";
+            this.Column8.MaxInputLength = 1;
             this.Column8.MinimumWidth = 6;
             this.Column8.Name = "Column8";
             // 
             // Column9
             // 
             this.Column9.HeaderText = "Column9";
+            this.Column9.MaxInputLength = 1;
             this.Column9.MinimumWidth = 6;
             this.Column9.Name = "Column9";
             // 
@@ -134,7 +146,7 @@
             // 
             // cleanButton
             // 
-            this.cleanButton.Location = new System.Drawing.Point(608, 140);
+            this.cleanButton.Location = new System.Drawing.Point(608, 354);
             this.cleanButton.Name = "cleanButton";
             this.cleanButton.Size = new System.Drawing.Size(180, 49);
             this.cleanButton.TabIndex = 2;
@@ -144,7 +156,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(608, 334);
+            this.exitButton.Location = new System.Drawing.Point(608, 409);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(180, 49);
             this.exitButton.TabIndex = 3;
@@ -152,11 +164,22 @@
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // validateMoveButton
+            // 
+            this.validateMoveButton.Location = new System.Drawing.Point(608, 110);
+            this.validateMoveButton.Name = "validateMoveButton";
+            this.validateMoveButton.Size = new System.Drawing.Size(180, 49);
+            this.validateMoveButton.TabIndex = 4;
+            this.validateMoveButton.Text = "Validate move";
+            this.validateMoveButton.UseVisualStyleBackColor = true;
+            this.validateMoveButton.Click += new System.EventHandler(this.validateMoveButton_Click);
+            // 
             // SudokuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(885, 470);
+            this.Controls.Add(this.validateMoveButton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.cleanButton);
             this.Controls.Add(this.playButton);
@@ -171,6 +194,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView sudokuDataGridView;
+        private System.Windows.Forms.Button playButton;
+        private System.Windows.Forms.Button cleanButton;
+        private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -180,9 +206,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.Button playButton;
-        private System.Windows.Forms.Button cleanButton;
-        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Button validateMoveButton;
     }
 }
 

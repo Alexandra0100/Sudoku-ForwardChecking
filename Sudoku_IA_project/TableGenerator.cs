@@ -10,7 +10,7 @@ namespace Sudoku_IA_project
     {
         private static int[,] table = new int[9, 9]; 
         private static Random random = new Random();
-        private static bool[,,] possibleValues = new bool[9,9,9];
+        public static bool[,,] possibleValues = new bool[9,9,9];
 
         /// <summary>
         /// Functie care genereaza o tabla valida(matrice), in caz contrar, returneaza null
@@ -54,8 +54,10 @@ namespace Sudoku_IA_project
                 return GenerateTable(row, column + 1);
             }
 
-            // se verifica toate posibilitatile pentru a umple o celula
-            for (int nr = 1; nr <= 9; nr++)
+            // se verifica toate posibilitatile pentru a umple o celula. valorile sunt alese aleator
+            List<int> randomValues = Enumerable.Range(1, 9).OrderBy(x=> random.Next()).ToList();
+            
+            foreach(int nr in randomValues)
             {
                 if (IsValid(row, column, nr)) // validez numarul pe care il voi pune in celula
                 {
@@ -84,11 +86,11 @@ namespace Sudoku_IA_project
             //verific daca numarul este deja pe linie
             for(int i = 0; i < 9; i++)
             {
-                if (table[row, i] == nr)
+                if (i != column && table[row, i] == nr)
                 {
                     return false;
                 }
-                if (table[i, column] == nr)
+                if (i != row && table[i, column] == nr)
                 {
                     return false;
                 }

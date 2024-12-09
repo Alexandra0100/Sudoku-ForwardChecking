@@ -18,3 +18,13 @@ C:\Users\Florea Alexandra\Documents\IA\Proiect IA\Sudoku-ForwardChecking\Sudoku_
 C:\Users\Florea Alexandra\Documents\IA\Proiect IA\Sudoku-ForwardChecking\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe.config
 C:\Users\Florea Alexandra\Documents\IA\Proiect IA\Sudoku-ForwardChecking\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe
 C:\Users\Florea Alexandra\Documents\IA\Proiect IA\Sudoku-ForwardChecking\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.pdb
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe.config
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.pdb
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.AssemblyReference.cache
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.SudokuForm.resources
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.Properties.Resources.resources
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.GenerateResource.cache
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.CoreCompileInputs.cache
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.exe
+C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.pdb
