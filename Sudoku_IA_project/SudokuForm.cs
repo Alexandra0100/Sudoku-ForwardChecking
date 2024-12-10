@@ -103,7 +103,7 @@ namespace Sudoku_IA_project
                     if (sudokuDataGridView.Rows[row].Cells[column].Style.BackColor != System.Drawing.Color.LightGray)
                     {
                         sudokuDataGridView.Rows[row].Cells[column].Value = "";
-                        sudokuDataGridView.Rows[row].Cells[column].Style.ForeColor = System.Drawing.Color.White;
+                        sudokuDataGridView.Rows[row].Cells[column].Style.ForeColor = System.Drawing.Color.Black;
                         table[row, column] = 0;
                     }
                 }
