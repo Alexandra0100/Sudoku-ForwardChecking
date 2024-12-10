@@ -103,6 +103,7 @@ namespace Sudoku_IA_project
                     if (sudokuDataGridView.Rows[row].Cells[column].Style.BackColor != System.Drawing.Color.LightGray)
                     {
                         sudokuDataGridView.Rows[row].Cells[column].Value = "";
+                        sudokuDataGridView.Rows[row].Cells[column].Style.ForeColor = System.Drawing.Color.White;
                         table[row, column] = 0;
                     }
                 }
@@ -116,6 +117,7 @@ namespace Sudoku_IA_project
         /// <param name="e"></param>
         private void playButton_Click(object sender, EventArgs e)
         {
+            nrHints = 0;
             if (isFirstTableGeneration)
             {
                 cleanButton.Enabled = true;
@@ -149,6 +151,7 @@ namespace Sudoku_IA_project
         /// <param name="e"></param>
         private void cleanButton_Click(object sender, EventArgs e)
         {
+            nrHints = 0;
             CleanTableOnDataGridView();
         }
 
