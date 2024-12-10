@@ -42,12 +42,16 @@
             this.cleanButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.validateMoveButton = new System.Windows.Forms.Button();
+            this.getHintButton = new System.Windows.Forms.Button();
+            this.HelpButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sudokuDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // sudokuDataGridView
             // 
             this.sudokuDataGridView.AllowUserToDeleteRows = false;
+            this.sudokuDataGridView.AllowUserToResizeColumns = false;
+            this.sudokuDataGridView.AllowUserToResizeRows = false;
             this.sudokuDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.sudokuDataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.sudokuDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -69,7 +73,6 @@
             this.sudokuDataGridView.Size = new System.Drawing.Size(489, 437);
             this.sudokuDataGridView.TabIndex = 0;
             this.sudokuDataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.SudokuDataGridView_CellValueChanged);
-
             // 
             // Column1
             // 
@@ -146,7 +149,7 @@
             // 
             // cleanButton
             // 
-            this.cleanButton.Location = new System.Drawing.Point(608, 354);
+            this.cleanButton.Location = new System.Drawing.Point(608, 299);
             this.cleanButton.Name = "cleanButton";
             this.cleanButton.Size = new System.Drawing.Size(180, 49);
             this.cleanButton.TabIndex = 2;
@@ -174,11 +177,33 @@
             this.validateMoveButton.UseVisualStyleBackColor = true;
             this.validateMoveButton.Click += new System.EventHandler(this.validateMoveButton_Click);
             // 
+            // getHintButton
+            // 
+            this.getHintButton.Location = new System.Drawing.Point(608, 165);
+            this.getHintButton.Name = "getHintButton";
+            this.getHintButton.Size = new System.Drawing.Size(180, 49);
+            this.getHintButton.TabIndex = 5;
+            this.getHintButton.Text = "Get hint";
+            this.getHintButton.UseVisualStyleBackColor = true;
+            this.getHintButton.Click += new System.EventHandler(this.getHintButton_Click);
+            // 
+            // HelpButton
+            // 
+            this.HelpButton.Location = new System.Drawing.Point(608, 354);
+            this.HelpButton.Name = "HelpButton";
+            this.HelpButton.Size = new System.Drawing.Size(180, 49);
+            this.HelpButton.TabIndex = 6;
+            this.HelpButton.Text = "Help";
+            this.HelpButton.UseVisualStyleBackColor = true;
+            this.HelpButton.Click += new System.EventHandler(this.HelpButton_Click);
+            // 
             // SudokuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(885, 470);
+            this.Controls.Add(this.HelpButton);
+            this.Controls.Add(this.getHintButton);
             this.Controls.Add(this.validateMoveButton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.cleanButton);
@@ -207,6 +232,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.Button validateMoveButton;
+        private System.Windows.Forms.Button getHintButton;
+        private System.Windows.Forms.Button HelpButton;
     }
 }
 

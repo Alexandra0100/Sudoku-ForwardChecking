@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\",
+  "WorkspaceRootPath": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|c:\\users\\justi\\downloads\\sudoku_ia_project\\sudoku_ia_project\\sudokuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|c:\\users\\florea alexandra\\documents\\ia\\proiect ia\\sudoku-forwardchecking\\sudoku_ia_project\\sudokuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|solutionrelative:sudokuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\TableGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\TableGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|solutionrelative:TableGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\sudokuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|solutionrelative:sudokuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\SudokuForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|solutionrelative:SudokuForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\sudokuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|solutionrelative:sudokuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A59748-9D5A-4D85-86A2-1AE53B5948B0}|Sudoku_IA_project.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SudokuForm.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\SudokuForm.cs",
+              "DocumentMoniker": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.cs",
               "RelativeDocumentMoniker": "SudokuForm.cs",
-              "ToolTip": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\SudokuForm.cs",
+              "ToolTip": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.cs",
               "RelativeToolTip": "SudokuForm.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwF4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwG0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T17:11:52.058Z",
               "EditorCaption": ""
@@ -49,34 +49,34 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TableGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\TableGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\TableGenerator.cs",
               "RelativeDocumentMoniker": "TableGenerator.cs",
-              "ToolTip": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\TableGenerator.cs",
+              "ToolTip": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\TableGenerator.cs",
               "RelativeToolTip": "TableGenerator.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAkwFMAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwHYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T19:09:11.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SudokuForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\SudokuForm.cs",
+              "DocumentMoniker": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.cs",
               "RelativeDocumentMoniker": "SudokuForm.cs",
               "ToolTip": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.cs [Design]",
+              "RelativeToolTip": "SudokuForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T14:34:48.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SudokuForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\SudokuForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.Designer.cs",
               "RelativeDocumentMoniker": "SudokuForm.Designer.cs",
-              "ToolTip": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\SudokuForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\SudokuForm.Designer.cs",
               "RelativeToolTip": "SudokuForm.Designer.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAAEoAAACYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T22:59:41.964Z"
             },
@@ -84,9 +84,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\justi\\Downloads\\Sudoku_IA_project\\Sudoku_IA_project\\Program.cs",
+              "ToolTip": "C:\\Users\\Florea Alexandra\\Documents\\IA\\Proiect IA\\Sudoku-ForwardChecking\\Sudoku_IA_project\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

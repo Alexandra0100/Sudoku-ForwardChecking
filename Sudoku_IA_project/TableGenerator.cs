@@ -90,6 +90,7 @@ namespace Sudoku_IA_project
                 {
                     return false;
                 }
+            //verific dacă numărul este deja pe coloană
                 if (i != row && table[i, column] == nr)
                 {
                     return false;
