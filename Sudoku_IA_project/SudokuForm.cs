@@ -454,7 +454,7 @@ namespace Sudoku_IA_project
                                 sudokuDataGridView.Rows[row].Cells[column].Style.ForeColor = System.Drawing.Color.Blue;
                             }
 
-                            //await Task.Delay(500); 
+                            await Task.Delay(500); 
 
                             if (await SolveSudokuWithForwardCheckingAndBacktrackingAsync())
                             {
