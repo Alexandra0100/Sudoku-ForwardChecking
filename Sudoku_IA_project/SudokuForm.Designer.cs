@@ -44,6 +44,7 @@
             this.validateMoveButton = new System.Windows.Forms.Button();
             this.getHintButton = new System.Windows.Forms.Button();
             this.HelpButton = new System.Windows.Forms.Button();
+            this.generateSolutionButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sudokuDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -197,11 +198,22 @@
             this.HelpButton.UseVisualStyleBackColor = true;
             this.HelpButton.Click += new System.EventHandler(this.HelpButton_Click);
             // 
+            // generateSolutionButton
+            // 
+            this.generateSolutionButton.Location = new System.Drawing.Point(608, 220);
+            this.generateSolutionButton.Name = "generateSolutionButton";
+            this.generateSolutionButton.Size = new System.Drawing.Size(180, 49);
+            this.generateSolutionButton.TabIndex = 7;
+            this.generateSolutionButton.Text = "Generate solution";
+            this.generateSolutionButton.UseVisualStyleBackColor = true;
+            this.generateSolutionButton.Click += new System.EventHandler(this.generateSolutionButton_Click);
+            // 
             // SudokuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(885, 470);
+            this.Controls.Add(this.generateSolutionButton);
             this.Controls.Add(this.HelpButton);
             this.Controls.Add(this.getHintButton);
             this.Controls.Add(this.validateMoveButton);
@@ -234,6 +246,7 @@
         private System.Windows.Forms.Button validateMoveButton;
         private System.Windows.Forms.Button getHintButton;
         private System.Windows.Forms.Button HelpButton;
+        private System.Windows.Forms.Button generateSolutionButton;
     }
 }
 

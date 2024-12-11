@@ -33,10 +33,12 @@ namespace Sudoku_IA_project
             validateMoveButton.Font = new Font("Arial", 10);
             getHintButton.Font = new Font("Arial", 10);
             HelpButton.Font = new Font("Arial", 10);
+            generateSolutionButton.Font = new Font("Arial", 10);
 
             cleanButton.Enabled = false;
             validateMoveButton.Enabled = false;
             getHintButton.Enabled = false;
+            generateSolutionButton.Enabled = false;
             InitializeDataGridView();
             sudokuDataGridView.Enabled = false;
 
@@ -64,6 +66,7 @@ namespace Sudoku_IA_project
         {
             isFillingAutomatically = true;
             sudokuDataGridView.Enabled = true;
+            generateSolutionButton.Enabled = true;
             InitializeDataGridView();
 
             for (int i = 0; i < 9; i++)
@@ -426,5 +429,62 @@ namespace Sudoku_IA_project
         {
             MessageBox.Show("Reguli:\n\n-Pentru a incepe jocul este necesar ca jucatorul sa genereze o tabla, cu ajutorul butonului Generate table. Se poate genera oricand alta tabla, dar progresul anterior va fi pierdut.\n\n- Pentru a putea castiga, jucatorul trebuie sa completeze toate celulele goale cu valori valide. O valoare valida este una cuprinsa intre 1 si 9, care nu se repeta pe acelasi rand, coloana sau patratet de 3x3 marcat cu linii ingrosate.\n\n-Validarea se poate face cu butonul de validare, care va marca numerele valide cu verde, iar cele invalide cu rosu.\n\n-Daca se doreste stergerea tuturor valorilor completate pana in momentul respectiv, se va folosi butonul de Clena Table.\n\n-In cazul in care jucatorul are dificultati, se pot sugera valori de la butonul de Get Hint, in limita numarului maxim de hinturi oferit.\n\nMult succes!");
         }
+
+        /// <summary>
+        /// Functie de rezolvare a algoritmului cu Backtracking si Forward Checking
+        /// </summary>
+        /// <returns></returns>
+        private async Task<bool> SolveSudokuWithForwardCheckingAndBacktrackingAsync()
+        {
+            for (int row = 0; row < 9; row++)
+            {
+                for (int column = 0; column < 9; column++)
+                {
+                    if (table[row, column] == 0)
+                    {
+                        List<int> possibleValues = GetPossibleValuesFromForwardChecking(row, column);
+
+                        foreach (int value in possibleValues)
+                        {
+                            table[row, column] = value;
+
+                            if (sudokuDataGridView.Rows[row].Cells[column].Style.BackColor != System.Drawing.Color.Gray)
+                            {
+                                sudokuDataGridView.Rows[row].Cells[column].Value = table[row, column].ToString();
+                                sudokuDataGridView.Rows[row].Cells[column].Style.ForeColor = System.Drawing.Color.Blue;
+                            }
+
+                            await Task.Delay(500); 
+
+                            if (await SolveSudokuWithForwardCheckingAndBacktrackingAsync())
+                            {
+                                return true;
+                            }
+
+                            table[row, column] = 0;
+                        }
+
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
+        private async void generateSolutionButton_Click(object sender, EventArgs e)
+        {
+            bool isSolved = await SolveSudokuWithForwardCheckingAndBacktrackingAsync();
+            if (isSolved)
+            {
+                MessageBox.Show("Tabla a fost rezolvată cu succes!");
+            }
+            else
+            {
+                MessageBox.Show("Nu există soluție pentru această tablă.");
+            }
+        }
+
     }
+
 }
