@@ -454,7 +454,7 @@ namespace Sudoku_IA_project
                                 sudokuDataGridView.Rows[row].Cells[column].Style.ForeColor = System.Drawing.Color.Blue;
                             }
 
-                            await Task.Delay(500); 
+                            //await Task.Delay(500); 
 
                             if (await SolveSudokuWithForwardCheckingAndBacktrackingAsync())
                             {
@@ -462,6 +462,11 @@ namespace Sudoku_IA_project
                             }
 
                             table[row, column] = 0;
+                            if (sudokuDataGridView.Rows[row].Cells[column].Style.BackColor != System.Drawing.Color.Gray)
+                            {
+                                sudokuDataGridView.Rows[row].Cells[column].Value = "";
+                                sudokuDataGridView.Rows[row].Cells[column].Style.ForeColor = System.Drawing.Color.Blue;
+                            }
                         }
 
                         return false;
