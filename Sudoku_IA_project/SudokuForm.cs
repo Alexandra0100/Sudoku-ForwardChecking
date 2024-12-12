@@ -41,6 +41,7 @@ namespace Sudoku_IA_project
             generateSolutionButton.Enabled = false;
             InitializeDataGridView();
             sudokuDataGridView.Enabled = false;
+            sudokuDataGridView.Visible  = false;
 
 
         }
@@ -67,6 +68,7 @@ namespace Sudoku_IA_project
             isFillingAutomatically = true;
             sudokuDataGridView.Enabled = true;
             generateSolutionButton.Enabled = true;
+            sudokuDataGridView.Visible = true;
             InitializeDataGridView();
 
             for (int i = 0; i < 9; i++)
