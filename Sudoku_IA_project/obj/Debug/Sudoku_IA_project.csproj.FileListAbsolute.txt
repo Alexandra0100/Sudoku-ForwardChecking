@@ -28,3 +28,19 @@ C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA
 C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.CoreCompileInputs.cache
 C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.exe
 C:\Users\justi\Downloads\Sudoku_IA_project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.pdb
+C:\Users\Florea Alexandra\Documents\IA\Proiect IA\Sudoku-ForwardChecking\Sudoku_IA_project\bin\Debug\SudokuClassLibrary.dll
+C:\Users\Florea Alexandra\Documents\IA\Proiect IA\Sudoku-ForwardChecking\Sudoku_IA_project\bin\Debug\SudokuClassLibrary.pdb
+C:\Users\Florea Alexandra\Documents\IA\Proiect IA\Sudoku-ForwardChecking\Sudoku_IA_project\obj\Debug\Sudoku_I.1D462201.Up2Date
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe.config
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.exe
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\bin\Debug\Sudoku_IA_project.pdb
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\bin\Debug\SudokuClassLibrary.dll
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\bin\Debug\SudokuClassLibrary.pdb
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.AssemblyReference.cache
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.SudokuForm.resources
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.Properties.Resources.resources
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.GenerateResource.cache
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.csproj.CoreCompileInputs.cache
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_I.1D462201.Up2Date
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.exe
+C:\Users\Florea Alexandra\Documents\EP\New folder\EP-Project\Sudoku_IA_project\obj\Debug\Sudoku_IA_project.pdb
