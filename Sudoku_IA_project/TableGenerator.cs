@@ -81,7 +81,7 @@ namespace Sudoku_IA_project
         /// <param name="column"></param>
         /// <param name="nr"></param>
         /// <returns>bool</returns>
-        private static bool IsValid(int row, int column, int nr)
+        public static bool IsValid(int row, int column, int nr)
         {
             //verific daca numarul este deja pe linie
             for(int i = 0; i < 9; i++)
@@ -143,7 +143,7 @@ namespace Sudoku_IA_project
         /// <summary>
         /// Functie care initializeaza toate valorile ca fiind posibile
         /// </summary>
-        private static void InitialPossibleValues()
+        public static void InitialPossibleValues()
         {
             for(int i = 0; i < 9; i++)
             {
@@ -164,7 +164,7 @@ namespace Sudoku_IA_project
         /// <param name="column"></param>
         /// <param name="nr"></param>
         /// <param name="update"></param>
-        private static void UpdatePossibileValues(int row, int column, int nr, bool update)
+        public static void UpdatePossibileValues(int row, int column, int nr, bool update)
         {
             for (int i = 0; i < 9; i++)
             {
